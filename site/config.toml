@@ -2,7 +2,7 @@
 # --------------
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ .Site.Params.myvariable }}.
-baseurl = "/" # The subpath of your site, e.g. / or /blog !!!this is https://zen-fermi-a2559a.netlify.com !!!
+baseurl = "https://zen-fermi-a2559a.netlify.com/" # The subpath of your site, e.g. / or /blog !!!this is https://zen-fermi-a2559a.netlify.com !!!
 languageCode = "en-us"
 languageLang = "en"
 defaultContentLanguage = "en"
