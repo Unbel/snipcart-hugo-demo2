@@ -40,7 +40,7 @@ Google search results) and in your RSS feed description.
 author = "Your name"
 currency = "USD"
 snipcart_test_api_key = "MGQzMWVkMmYtMzhlZC00MjU4LTk3MjQtZDNmMzM1MTI1ZDlhNjM1OTY4NjY2NjE5MTAwMzMy"
-snipcart_live_api_key = "M2JlZWFjMjgtNTczYS00NmMwLTgzOWYtMmJkOTAyYzUxNzQ0NjM1OTY4NjY2NjE5MTAwMzMy"
+snipcart_live_api_key = "MGQzMWVkMmYtMzhlZC00MjU4LTk3MjQtZDNmMzM1MTI1ZDlhNjM1OTY4NjY2NjE5MTAwMzMy"
 cloudinary_base_url = "https://res.cloudinary.com/dwalkr"
 
 
