@@ -16,13 +16,15 @@
     </script>
     {{- end -}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="
-  {{- if eq (getenv "HUGO_ENV") "development" -}}
-  {{ .Site.Params.snipcart_test_api_key }}
-  {{- else -}}
-  {{ .Site.Params.snipcart_live_api_key }}
-  {{- end -}}
-"></script>
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MGQzMWVkMmYtMzhlZC00MjU4LTk3MjQtZDNmMzM1MTI1ZDlhNjM1OTY4NjY2NjE5MTAwMzMy">
+</script>
+
+<!-- убрал
+{{- if eq (getenv "HUGO_ENV") "development" -}}
+{{ .Site.Params.snipcart_test_api_key }}
+{{- else -}}
+{{ .Site.Params.snipcart_live_api_key }}
+{{- end -}} -->
     <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
